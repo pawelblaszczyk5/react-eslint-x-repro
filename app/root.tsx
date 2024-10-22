@@ -8,10 +8,12 @@ import {
 import type { ActionFunction, LoaderFunction } from "@remix-run/node";
 
 export const loader = (({}) => {
+  //             ^?
   return null;
 }) satisfies LoaderFunction;
 
 export const action = (() => {
+  //             ^?
   return null;
 }) satisfies ActionFunction;
 
